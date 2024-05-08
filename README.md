@@ -18,7 +18,7 @@ C++ compiler (C++11 or later)
 Standard Template Library (STL) support
 Object-Oriented Programming concepts understanding
 Installation
-Clone the repository: git clone https://github.com/duvarkeshss/tournament-management
+Clone the repository: git clone https://github.com/duvarakeshss/codeblock
 Navigate to the project directory: cd tournament-management
 Compile the source code: g++ -std=c++11 main.cpp -o tournament_management
 Run the executable: ./tournament_management
