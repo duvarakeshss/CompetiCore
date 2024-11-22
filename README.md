@@ -1,37 +1,76 @@
-Overview
-The Tournament Management System is a C++ application designed to efficiently manage various aspects of organizing and running tournaments. The system is implemented using Object-Oriented Programming (OOP) principles for better code organization, modularity, and reusability.
+# Tournament Management System  
 
-Features
-Player Management: Allows adding, removing, and updating player information.
-Tournament Creation: Enables the creation of new tournaments, specifying rules, categories, and participants.
-Match Scheduling: Facilitates scheduling matches within tournaments, taking into account player availability and preferences.
+The **Tournament Management System** is a C++ application designed to efficiently manage various aspects of organizing and running tournaments. It leverages Object-Oriented Programming (OOP) principles to ensure modularity, reusability, and ease of maintenance.  
 
-Object-Oriented Design
-The project follows an Object-Oriented Design approach with the following key classes:
+---
 
-Player: Represents a player participating in tournaments. Contains information such as name, age, rank, etc.
-Tournament: Represents a tournament, including its rules, categories, participants, and matches.
-Match: Represents a single match between two players or teams within a tournament.
+## **Features**  
 
-Requirements
-C++ compiler (C++11 or later)
-Standard Template Library (STL) support
-Object-Oriented Programming concepts understanding
-Installation
-Clone the repository: git clone https://github.com/duvarakeshss/codeblock
-Navigate to the project directory: cd tournament-management
-Compile the source code: g++ -std=c++11 main.cpp -o tournament_management
-Run the executable: ./tournament_management
+### **1. Player Management**  
+- Add, update, or remove player information.  
+- Maintain player details such as name, age, rank, and more.  
 
-Usage
-Upon running the executable, the user will be presented with a menu providing various options for managing tournaments and players.
-Follow the on-screen instructions to perform desired operations such as creating a tournament, adding players, scheduling matches, etc.
+### **2. Tournament Creation**  
+- Create and configure new tournaments.  
+- Define tournament rules, categories, and participants.  
 
-Implementation Details
-Object-Oriented Programming: The project utilizes classes and objects to encapsulate data and functionality, promoting code reusability and maintainability.
-File Handling: Player and tournament data may be stored and retrieved from disk for persistence.
-Algorithmic Design: Efficient algorithms are employed for tasks such as match scheduling and score tracking to ensure optimal performance.
-Contributors
+### **3. Match Scheduling**  
+- Schedule matches within tournaments.  
+- Account for player availability and preferences while planning.  
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
+
+## **Object-Oriented Design**  
+
+The application is designed with a focus on Object-Oriented principles, ensuring clear separation of concerns and ease of scalability.  
+
+### **Key Classes**  
+#### **Player**  
+- Represents a player in the tournament.  
+- **Attributes:**  
+  - Name  
+  - Age  
+  - Rank  
+  - Contact information (if needed)  
+- **Methods:**  
+  - Add/update player details  
+  - Display player information  
+
+#### **Tournament**  
+- Represents a tournament.  
+- **Attributes:**  
+  - Tournament name  
+  - Rules and categories  
+  - List of participants  
+  - Matches  
+- **Methods:**  
+  - Create tournament  
+  - Add/remove participants  
+  - Display tournament details  
+
+#### **Match**  
+- Represents a single match in a tournament.  
+- **Attributes:**  
+  - Player/team details  
+  - Match date and time  
+  - Match results  
+- **Methods:**  
+  - Schedule match  
+  - Update match results  
+
+---
+
+## **Requirements**  
+
+- C++ compiler (C++11 or later)  
+- Support for the Standard Template Library (STL)  
+- Understanding of Object-Oriented Programming (OOP) concepts  
+
+---
+
+## **Installation**  
+
+### **Clone the repository:**  
+```bash  
+git clone https://github.com/duvarakeshss/codeblock
+```
